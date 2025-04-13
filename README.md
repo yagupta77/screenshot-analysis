@@ -1,10 +1,10 @@
-# Security Analyzer Tool
+# Screenshot Security Analyzer
 
-A lightweight, powerful tool for analyzing text for security issues and providing actionable mitigation steps.
+A lightweight, powerful tool for extracting text from screenshots/images and analyzing it for security issues with actionable mitigation steps.
 
 ## Overview
 
-The Security Analyzer Tool scans text input for potential security issues such as:
+The Screenshot Security Analyzer scans images for text content and analyzes it for potential security issues such as:
 
 - DDoS attacks
 - Data breaches
@@ -22,32 +22,44 @@ For each detected issue, the tool provides severity classification and specific 
 
 ## Features
 
+- **OCR Text Extraction**: Extracts text from screenshots and images
 - **Pattern-based Detection**: Uses regex patterns to identify security issues in text
 - **Severity Classification**: Categorizes findings by Critical, High, Medium, and Low severity
 - **Actionable Mitigation**: Provides specific steps to address each security issue
 - **Color-coded Output**: Enhances readability with color-coded terminal output
-- **Multiple Input Methods**: Supports file input or interactive text entry
+- **Multiple Input Methods**: Supports image files or text files
 
 ## Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/screenshot-analyzer.git
-cd screenshot-analyzer
+git clone https://github.com/yagupta77/screenshot-analysis.git
+cd screenshot-analysis
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Install Tesseract OCR (required for image text extraction)
+# For Windows: Download and install from https://github.com/UB-Mannheim/tesseract/wiki
+# For Ubuntu/Debian: sudo apt install tesseract-ocr
+# For macOS: brew install tesseract
 ```
 
 ## Usage
 
-### Analyzing a File
+### Analyzing an Image
+
+```bash
+python analyze_image.py path/to/your/image.png
+```
+
+### Analyzing a Text File
 
 ```bash
 python main.py path/to/your/file.txt
 ```
 
-### Interactive Mode
+### Interactive Text Mode
 
 ```bash
 python main.py
@@ -72,22 +84,33 @@ Then enter the text you want to analyze. Press Ctrl+D (Unix) or Ctrl+Z (Windows)
 ## Project Structure
 
 ```
-screenshot-analyzer/
+screenshot-analysis/
 ├── analysis/
 │   └── analyze_text.py  # Core analysis functionality
 ├── ocr/
-│   └── extract_text.py  # Text extraction from images (optional)
-├── main.py              # Main entry point
+│   └── extract_text.py  # Text extraction from images
+├── main.py              # Text analysis entry point
+├── analyze_image.py     # Image analysis entry point
 ├── requirements.txt     # Dependencies
 └── README.md           # Documentation
 ```
 
 ## Requirements
 
-The tool has minimal dependencies:
+The tool requires:
 
 - Python 3.6+
-- Basic regex support
+- OpenCV (for image processing)
+- Pytesseract (for OCR)
+- Tesseract OCR (backend for pytesseract)
+- Python-dotenv (for environment variables)
+
+## Configuration
+
+Copy the `.env.example` file to `.env` to configure optional features:
+- Threat intelligence API integration
+- Alert notifications (Slack, Telegram, Email)
+- Automated response settings
 
 ## License
 

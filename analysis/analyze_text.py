@@ -1,35 +1,22 @@
+"""
+Security text analyzer module for detecting security issues in text.
+"""
 import re
 import os
-from typing import Dict, List, Tuple
-from datetime import datetime
+import logging
+from typing import Dict, List, Optional
+from analysis.utils.formatting import colorize, clean_text
 
-# ANSI color codes for output formatting
-COLORS = {
-    'red': '\033[91m',
-    'green': '\033[92m',
-    'yellow': '\033[93m',
-    'cyan': '\033[96m',
-    'blue': '\033[94m',
-    'reset': '\033[0m'
-}
-
-def colorize(text: str, color: str) -> str:
-    """Add color to console output."""
-    return f"{COLORS[color]}{text}{COLORS['reset']}"
-
-def clean_text(text: str) -> str:
-    """Clean and normalize text."""
-    # Process each line separately to maintain structure
-    lines = []
-    for line in text.split('\n'):
-        # Remove log level tags
-        line = re.sub(r'\[.*?\]\s*', '', line)
-        if line.strip():
-            lines.append(line.strip())
-    return '\n'.join(lines)
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 class SecurityAnalyzer:
+    """
+    Analyzes text for security-related patterns and provides mitigation steps.
+    """
     def __init__(self):
+        """Initialize the security analyzer with threat patterns and mitigation steps."""
         self.threat_patterns = {
             'Critical': {
                 'DDoS Attack': [r'DDoS attack.*service unavailable.*traffic'],
@@ -157,8 +144,21 @@ class SecurityAnalyzer:
         }
 
     def analyze_patterns(self, text: str) -> Dict:
-        """Analyze text for security patterns and correlate findings."""
+        """
+        Analyze text for security patterns and correlate findings.
+        
+        Args:
+            text: The text to analyze
+            
+        Returns:
+            Dictionary of findings organized by severity
+        """
         findings = {}
+        
+        if not text or not text.strip():
+            logger.warning("Empty text provided for analysis")
+            return findings
+            
         clean_content = clean_text(text)
         lines = clean_content.split('\n')
         
@@ -190,7 +190,15 @@ class SecurityAnalyzer:
         return findings
 
     def format_findings(self, findings: Dict) -> str:
-        """Format security findings for display."""
+        """
+        Format security findings for display.
+        
+        Args:
+            findings: Dictionary of findings organized by severity
+            
+        Returns:
+            Formatted string with color-coded output
+        """
         if not findings:
             return colorize("No security issues detected.", 'green')
         
@@ -207,7 +215,7 @@ class SecurityAnalyzer:
         
         for severity in ['Critical', 'High', 'Medium', 'Low']:
             if severity in findings:
-                color = severity_colors[severity]
+                color = severity_colors.get(severity, 'blue')
                 output.append(colorize(f"│ {severity} Issues:", color))
                 
                 for category, details in findings[severity].items():
@@ -223,7 +231,19 @@ class SecurityAnalyzer:
         return '\n'.join(output)
 
 def analyze_text(text: str) -> str:
-    """Main function to analyze text for security issues."""
-    analyzer = SecurityAnalyzer()
-    findings = analyzer.analyze_patterns(text)
-    return analyzer.format_findings(findings)
+    """
+    Main function to analyze text for security issues.
+    
+    Args:
+        text: The text to analyze
+        
+    Returns:
+        Formatted analysis results
+    """
+    try:
+        analyzer = SecurityAnalyzer()
+        findings = analyzer.analyze_patterns(text)
+        return analyzer.format_findings(findings)
+    except Exception as e:
+        logger.error(f"Error analyzing text: {e}")
+        return colorize(f"Error analyzing text: {e}", 'red')
