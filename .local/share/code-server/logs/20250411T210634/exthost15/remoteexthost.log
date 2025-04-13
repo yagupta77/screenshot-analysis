@@ -1,0 +1,29 @@
+2025-04-12 23:35:56.408 [info] Extension host with pid 20230 started
+2025-04-12 23:35:56.408 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319/vscode.lock'
+2025-04-12 23:35:56.414 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-04-12 23:35:56.422 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319/vscode.lock': The lock does not look stale, elapsed: 325 ms, giving up.
+2025-04-12 23:35:56.430 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-1/vscode.lock'
+2025-04-12 23:35:56.431 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-04-12 23:35:56.432 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-1/vscode.lock': The lock does not look stale, elapsed: 217 ms, giving up.
+2025-04-12 23:35:56.432 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-2/vscode.lock'
+2025-04-12 23:35:56.433 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-2/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-04-12 23:35:56.434 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-2/vscode.lock': The lock does not look stale, elapsed: 34 ms, giving up.
+2025-04-12 23:35:56.435 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-3/vscode.lock'
+2025-04-12 23:35:56.442 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-3/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-04-12 23:35:56.443 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-3/vscode.lock': The lock does not look stale, elapsed: 339 ms, giving up.
+2025-04-12 23:35:56.443 [error] Error: EEXIST: file already exists, open '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-4/vscode.lock'
+2025-04-12 23:35:56.444 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-4/vscode.lock': Could not acquire lock, checking if the file is stale.
+2025-04-12 23:35:56.445 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-4/vscode.lock': The lock does not look stale, elapsed: 120 ms, giving up.
+2025-04-12 23:35:56.453 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319-5/vscode.lock': Lock acquired.
+2025-04-12 23:35:56.814 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-04-12 23:35:56.869 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-04-12 23:35:56.870 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 23:35:56.871 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 23:35:56.872 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-04-12 23:35:57.329 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-04-12 23:35:57.330 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-04-12 23:35:57.937 [info] Eager extensions activated
+2025-04-12 23:35:57.938 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 23:35:57.939 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-04-12 23:35:58.812 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-04-12 23:39:39.875 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

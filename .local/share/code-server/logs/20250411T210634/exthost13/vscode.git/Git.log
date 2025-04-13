@@ -1,0 +1,154 @@
+2025-04-12 23:19:09.641 [info] [main] Log level: Info
+2025-04-12 23:19:09.641 [info] [main] Validating found git in: "git"
+2025-04-12 23:19:09.641 [info] [main] Using git "2.34.1" from "git"
+2025-04-12 23:19:09.641 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-12 23:19:09.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 23:19:09.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-12 23:19:09.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:19:09.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:19:09.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:19:09.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 23:19:09.641 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-12 23:19:09.641 [info] [Model][openRepository] Opened repository: /home/ubuntu/.nvm
+2025-04-12 23:19:09.641 [info] > git config --get commit.template [5ms]
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-12 23:19:09.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:19:09.641 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [6ms]
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [13ms]
+2025-04-12 23:19:09.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:19:09.641 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-12 23:19:09.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 23:19:09.641 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-04-12 23:19:09.641 [info] [Model][openRepository] Opened repository: /home/ubuntu/screenshot-analysis
+2025-04-12 23:19:09.641 [info] > git status -z -uall [53ms]
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [37ms]
+2025-04-12 23:19:09.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:19:09.641 [info] > git config --get commit.template [42ms]
+2025-04-12 23:19:09.641 [info] > git config --get commit.template [11ms]
+2025-04-12 23:19:09.641 [info] > git rev-parse --show-toplevel [10ms]
+2025-04-12 23:19:09.641 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:19:09.641 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-12 23:19:09.641 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [7ms]
+2025-04-12 23:19:09.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2025-04-12 23:19:09.641 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/screenshot-analysis/.git/refs/remotes/origin/main'
+2025-04-12 23:19:09.641 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 23:19:09.641 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-04-12 23:19:09.641 [info] > git status -z -uall [6ms]
+2025-04-12 23:19:09.641 [info] > git status -z -uall [26ms]
+2025-04-12 23:19:09.641 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-04-12 23:19:09.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-04-12 23:19:09.641 [info] > git config --get commit.template [8ms]
+2025-04-12 23:19:09.641 [info] > git config --get --local branch.main.vscode-merge-base [10ms]
+2025-04-12 23:19:09.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-04-12 23:19:09.641 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/screenshot-analysis/.git/refs/remotes/origin/main'
+2025-04-12 23:19:09.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-04-12 23:19:09.641 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2025-04-12 23:19:09.641 [info] > git status -z -uall [6ms]
+2025-04-12 23:19:09.641 [info] > git merge-base refs/heads/main refs/remotes/origin/main [11ms]
+2025-04-12 23:19:09.641 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-04-12 23:19:09.641 [info] > git diff --name-status -z --diff-filter=ADMR 57ce3d84bebbacafd65e264f0828bcca7051bee3...refs/remotes/origin/main [13ms]
+2025-04-12 23:19:09.641 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2025-04-12 23:19:09.647 [info] > git diff --name-status -z --diff-filter=ADMR 57ce3d84bebbacafd65e264f0828bcca7051bee3...refs/remotes/origin/main [7ms]
+2025-04-12 23:19:10.095 [info] > git rev-parse --show-toplevel [14ms]
+2025-04-12 23:19:28.358 [info] > git check-ignore -v -z --stdin [6ms]
+2025-04-12 23:19:28.360 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 23:21:49.801 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-12 23:21:49.801 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:21:51.585 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:21:51.588 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:21:53.312 [info] > git rev-parse --show-toplevel [114ms]
+2025-04-12 23:21:53.312 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:21:55.469 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 23:21:55.469 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:22:17.055 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-12 23:22:19.433 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-12 23:22:20.403 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-12 23:22:34.054 [info] > git show --textconv :analysis/__init__.py [13ms]
+2025-04-12 23:22:34.054 [info] > git show --textconv HEAD:analysis/__init__.py [9ms]
+2025-04-12 23:22:34.055 [info] > git ls-files --stage -- analysis/__init__.py [5ms]
+2025-04-12 23:22:34.067 [info] > git cat-file -s cf23fc4b58709c0702c04d2daf4d78b1a6104991 [7ms]
+2025-04-12 23:22:34.068 [info] > git ls-tree -l HEAD -- analysis/__init__.py [15ms]
+2025-04-12 23:22:34.074 [info] > git hash-object -t tree /dev/null [8ms]
+2025-04-12 23:22:34.074 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/screenshot-analysis/analysis/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fscreenshot-analysis%2Fanalysis%2F__init__.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-12 23:22:34.077 [info] > git hash-object -t tree /dev/null [4ms]
+2025-04-12 23:22:34.078 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/screenshot-analysis/analysis/__init__.py.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fscreenshot-analysis%2Fanalysis%2F__init__.py%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-04-12 23:22:39.986 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [20ms]
+2025-04-12 23:22:39.991 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-12 23:22:39.991 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:22:40.016 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:22:40.017 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:22:43.530 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 23:22:45.265 [info] > git -c user.useConfigOnly=true commit --quiet [3ms]
+2025-04-12 23:22:45.266 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-04-12 23:22:45.273 [info] > git config --get-all user.name [2ms]
+2025-04-12 23:22:45.282 [info] > git config --get commit.template [4ms]
+2025-04-12 23:22:45.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-12 23:22:45.287 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/screenshot-analysis/.git/refs/remotes/origin/main'
+2025-04-12 23:22:45.289 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-04-12 23:22:45.299 [info] > git status -z -uall [5ms]
+2025-04-12 23:22:45.301 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 23:25:09.293 [info] > git blame --root --incremental 57ce3d84bebbacafd65e264f0828bcca7051bee3 -- analysis/__init__.py [3ms]
+2025-04-12 23:25:09.293 [info] fatal: no such path analysis/__init__.py in 57ce3d84bebbacafd65e264f0828bcca7051bee3
+2025-04-12 23:26:42.365 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:26:42.365 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:27:57.736 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:27:57.736 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:32:12.717 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [4ms]
+2025-04-12 23:32:13.138 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-12 23:32:13.186 [info] > git show --textconv :.git/COMMIT_EDITMSG [4ms]
+2025-04-12 23:32:13.187 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/screenshot-analysis/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fscreenshot-analysis%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-04-12 23:32:13.188 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [2ms]
+2025-04-12 23:32:13.189 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/screenshot-analysis/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fscreenshot-analysis%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2025-04-12 23:32:15.772 [info] > git blame --root --incremental 57ce3d84bebbacafd65e264f0828bcca7051bee3 -- .git/COMMIT_EDITMSG [3ms]
+2025-04-12 23:32:15.772 [info] fatal: no such path .git/COMMIT_EDITMSG in 57ce3d84bebbacafd65e264f0828bcca7051bee3
+2025-04-12 23:32:22.576 [info] > git -c user.useConfigOnly=true commit --quiet [11059ms]
+2025-04-12 23:32:22.587 [info] > git config --get commit.template [4ms]
+2025-04-12 23:32:22.588 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 23:32:22.592 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/screenshot-analysis/.git/refs/remotes/origin/main'
+2025-04-12 23:32:22.594 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-04-12 23:32:22.602 [info] > git status -z -uall [5ms]
+2025-04-12 23:32:22.604 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 23:32:22.619 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-04-12 23:32:22.625 [info] > git diff --name-status -z --diff-filter=ADMR 57ce3d84bebbacafd65e264f0828bcca7051bee3...refs/remotes/origin/main [3ms]
+2025-04-12 23:32:23.002 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [9ms]
+2025-04-12 23:32:23.004 [info] > git config --get commit.template [3ms]
+2025-04-12 23:32:23.010 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 23:32:23.013 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/screenshot-analysis/.git/refs/remotes/origin/main'
+2025-04-12 23:32:23.016 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-04-12 23:32:23.025 [info] > git status -z -uall [6ms]
+2025-04-12 23:32:23.026 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 23:32:23.082 [info] > git show --textconv :analysis/__init__.py [4ms]
+2025-04-12 23:32:23.084 [info] > git ls-files --stage -- analysis/__init__.py [3ms]
+2025-04-12 23:32:23.089 [info] > git cat-file -s cf23fc4b58709c0702c04d2daf4d78b1a6104991 [2ms]
+2025-04-12 23:32:23.439 [info] > git blame --root --incremental 84379a6ac0020d928ed66c900d22ce5239a5259c -- analysis/__init__.py [3ms]
+2025-04-12 23:32:23.457 [info] > git ls-files --stage -- analysis/__init__.py [2ms]
+2025-04-12 23:32:23.463 [info] > git cat-file -s cf23fc4b58709c0702c04d2daf4d78b1a6104991 [3ms]
+2025-04-12 23:32:23.794 [info] > git show --textconv :analysis/__init__.py [3ms]
+2025-04-12 23:32:28.549 [info] > git log --oneline --cherry main...main@{upstream} -- [4ms]
+2025-04-12 23:32:28.708 [info] > git pull --tags origin main [155ms]
+2025-04-12 23:32:28.708 [info] From https://github.com/yagupta77/screenshot-analysis
+ * branch            main       -> FETCH_HEAD
+2025-04-12 23:32:30.592 [info] > git ls-files --stage -- analysis/__init__.py [3ms]
+2025-04-12 23:32:30.597 [info] > git cat-file -s cf23fc4b58709c0702c04d2daf4d78b1a6104991 [2ms]
+2025-04-12 23:32:30.941 [info] > git show --textconv :analysis/__init__.py [2ms]

@@ -1,0 +1,4 @@
+2025-04-12 23:35:58.360 [info] Log level: Info
+2025-04-12 23:36:00.325 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for yagupta77/screenshot-analysis: Error: No GitHub authentication session available.
+2025-04-12 23:36:00.326 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2025-04-12 23:36:00.326 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.

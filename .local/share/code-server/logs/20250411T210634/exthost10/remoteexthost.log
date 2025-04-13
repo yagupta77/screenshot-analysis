@@ -1,0 +1,5 @@
+2025-04-12 15:11:26.450 [info] Extension host with pid 8757 started
+2025-04-12 15:11:26.475 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319/vscode.lock': Lock acquired.
+2025-04-12 23:23:38.148 [info] Extension host terminating: renderer disconnected for too long (2)
+2025-04-12 23:23:38.151 [info] Lock '/home/ubuntu/.local/share/code-server/User/workspaceStorage/756ae319/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-04-12 23:23:38.169 [info] Extension host with pid 8757 exiting with code 0

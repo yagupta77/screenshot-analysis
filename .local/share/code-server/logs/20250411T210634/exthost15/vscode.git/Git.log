@@ -1,0 +1,182 @@
+2025-04-12 23:35:58.357 [info] [main] Log level: Info
+2025-04-12 23:35:58.357 [info] [main] Validating found git in: "git"
+2025-04-12 23:35:58.357 [info] [main] Using git "2.34.1" from "git"
+2025-04-12 23:35:58.357 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-12 23:35:58.357 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:35:58.358 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.358 [info] > git rev-parse --show-toplevel [221ms]
+2025-04-12 23:35:58.358 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-04-12 23:35:58.358 [info] [Model][openRepository] Opened repository: /home/ubuntu/screenshot-analysis
+2025-04-12 23:35:58.358 [info] > git rev-parse --show-toplevel [16ms]
+2025-04-12 23:35:58.358 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.358 [info] > git config --get commit.template [21ms]
+2025-04-12 23:35:58.358 [info] > git rev-parse --show-toplevel [25ms]
+2025-04-12 23:35:58.358 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.359 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2025-04-12 23:35:58.359 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/screenshot-analysis/.git/refs/remotes/origin/main'
+2025-04-12 23:35:58.359 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-12 23:35:58.359 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.359 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2025-04-12 23:35:58.359 [info] > git rev-parse --show-toplevel [12ms]
+2025-04-12 23:35:58.359 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.361 [info] > git status -z -uall [18ms]
+2025-04-12 23:35:58.362 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-04-12 23:35:58.401 [info] > git rev-parse --show-toplevel [44ms]
+2025-04-12 23:35:58.401 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-04-12 23:35:58.411 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-12 23:35:58.412 [info] > git config --get commit.template [11ms]
+2025-04-12 23:35:58.457 [info] > git config --get --local branch.main.vscode-merge-base [48ms]
+2025-04-12 23:35:58.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-04-12 23:35:58.481 [info] > git rev-parse --git-dir --git-common-dir [59ms]
+2025-04-12 23:35:58.510 [info] [Model][openRepository] Opened repository: /home/ubuntu/.nvm
+2025-04-12 23:35:58.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [108ms]
+2025-04-12 23:35:58.549 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/screenshot-analysis/.git/refs/remotes/origin/main'
+2025-04-12 23:35:58.550 [info] > git merge-base refs/heads/main refs/remotes/origin/main [70ms]
+2025-04-12 23:35:58.561 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2025-04-12 23:35:58.567 [info] > git rev-parse --show-toplevel [22ms]
+2025-04-12 23:35:58.567 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.568 [info] > git config --get commit.template [34ms]
+2025-04-12 23:35:58.575 [info] > git status -z -uall [11ms]
+2025-04-12 23:35:58.575 [info] > git diff --name-status -z --diff-filter=ADMR 57ce3d84bebbacafd65e264f0828bcca7051bee3...refs/remotes/origin/main [18ms]
+2025-04-12 23:35:58.581 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-04-12 23:35:58.587 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [7ms]
+2025-04-12 23:35:58.609 [info] > git rev-parse --show-toplevel [35ms]
+2025-04-12 23:35:58.609 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.616 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-04-12 23:35:58.621 [info] > git rev-parse --show-toplevel [6ms]
+2025-04-12 23:35:58.621 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.650 [info] > git status -z -uall [58ms]
+2025-04-12 23:35:58.650 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-12 23:35:58.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.692 [info] > git config --get commit.template [25ms]
+2025-04-12 23:35:58.692 [info] > git rev-parse --show-toplevel [28ms]
+2025-04-12 23:35:58.692 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.698 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-12 23:35:58.700 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [9ms]
+2025-04-12 23:35:58.716 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-04-12 23:35:58.738 [info] > git status -z -uall [35ms]
+2025-04-12 23:35:58.808 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:35:58.808 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.880 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 23:35:58.880 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:58.997 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [6ms]
+2025-04-12 23:35:59.064 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-12 23:35:59.120 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:35:59.120 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:35:59.244 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:35:59.613 [info] > git show --textconv :analysis/__init__.py [7ms]
+2025-04-12 23:35:59.613 [info] > git ls-files --stage -- analysis/__init__.py [4ms]
+2025-04-12 23:35:59.617 [info] > git check-ignore -v -z --stdin [5ms]
+2025-04-12 23:35:59.618 [info] > git cat-file -s cf23fc4b58709c0702c04d2daf4d78b1a6104991 [2ms]
+2025-04-12 23:36:00.336 [info] > git blame --root --incremental 84379a6ac0020d928ed66c900d22ce5239a5259c -- analysis/__init__.py [3ms]
+2025-04-12 23:36:03.522 [info] > git log --oneline --cherry main...main@{upstream} -- [3ms]
+2025-04-12 23:36:03.714 [info] > git pull --tags origin main [187ms]
+2025-04-12 23:36:03.714 [info] From https://github.com/yagupta77/screenshot-analysis
+ * branch            main       -> FETCH_HEAD
+2025-04-12 23:36:05.611 [info] > git ls-files --stage -- analysis/__init__.py [2ms]
+2025-04-12 23:36:05.617 [info] > git cat-file -s cf23fc4b58709c0702c04d2daf4d78b1a6104991 [3ms]
+2025-04-12 23:36:05.951 [info] > git show --textconv :analysis/__init__.py [3ms]
+2025-04-12 23:36:54.576 [info] > git push origin main:main [50858ms]
+2025-04-12 23:36:54.576 [info] To https://github.com/yagupta77/screenshot-analysis.git
+   57ce3d8..84379a6  main -> main
+2025-04-12 23:36:54.586 [info] > git config --get commit.template [1ms]
+2025-04-12 23:36:54.594 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-04-12 23:36:54.604 [info] > git status -z -uall [4ms]
+2025-04-12 23:36:54.606 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 23:36:54.624 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-04-12 23:36:54.631 [info] > git diff --name-status -z --diff-filter=ADMR 84379a6ac0020d928ed66c900d22ce5239a5259c...refs/remotes/origin/main [3ms]
+2025-04-12 23:36:55.847 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [16ms]
+2025-04-12 23:36:56.915 [info] > git config --get commit.template [6ms]
+2025-04-12 23:36:56.922 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 23:36:56.933 [info] > git status -z -uall [5ms]
+2025-04-12 23:36:56.937 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-12 23:36:57.272 [info] > git ls-files --stage -- analysis/__init__.py [3ms]
+2025-04-12 23:36:57.278 [info] > git cat-file -s cf23fc4b58709c0702c04d2daf4d78b1a6104991 [2ms]
+2025-04-12 23:36:57.630 [info] > git show --textconv :analysis/__init__.py [2ms]
+2025-04-12 23:36:58.798 [info] > git ls-files --stage -- analysis/__init__.py [2ms]
+2025-04-12 23:36:58.806 [info] > git cat-file -s cf23fc4b58709c0702c04d2daf4d78b1a6104991 [3ms]
+2025-04-12 23:36:59.136 [info] > git show --textconv :analysis/__init__.py [2ms]
+2025-04-12 23:37:01.434 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:37:01.434 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:37:01.559 [info] > git fetch [135ms]
+2025-04-12 23:37:01.570 [info] > git config --get commit.template [4ms]
+2025-04-12 23:37:01.571 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-12 23:37:01.585 [info] > git status -z -uall [9ms]
+2025-04-12 23:37:01.586 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-04-12 23:37:01.593 [info] > git fetch [165ms]
+2025-04-12 23:37:01.593 [info] From https://github.com/nvm-sh/nvm
+   ffec9fe..99352a6  master     -> origin/master
+2025-04-12 23:37:01.604 [info] > git config --get commit.template [5ms]
+2025-04-12 23:37:01.605 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [2ms]
+2025-04-12 23:37:01.615 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 23:37:01.633 [info] > git status -z -uall [24ms]
+2025-04-12 23:37:01.951 [info] > git config --get commit.template [6ms]
+2025-04-12 23:37:01.953 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 23:37:01.961 [info] > git status -z -uall [4ms]
+2025-04-12 23:37:01.963 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 23:37:02.144 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 23:37:03.055 [info] > git config --get commit.template [6ms]
+2025-04-12 23:37:03.057 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-04-12 23:37:03.067 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 23:37:03.085 [info] > git status -z -uall [24ms]
+2025-04-12 23:37:03.478 [info] > git ls-files --stage -- analysis/__init__.py [3ms]
+2025-04-12 23:37:03.483 [info] > git cat-file -s cf23fc4b58709c0702c04d2daf4d78b1a6104991 [2ms]
+2025-04-12 23:37:03.593 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:37:03.816 [info] > git show --textconv :analysis/__init__.py [3ms]
+2025-04-12 23:37:06.981 [info] > git config --get commit.template [5ms]
+2025-04-12 23:37:06.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-04-12 23:37:06.993 [info] > git status -z -uall [5ms]
+2025-04-12 23:37:06.995 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 23:37:09.996 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 23:37:11.372 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 23:37:12.635 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 23:37:51.633 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [6ms]
+2025-04-12 23:39:39.541 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:39:39.548 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-12 23:39:39.563 [info] [Model][openRepository] Opened repository: /home/ubuntu
+2025-04-12 23:39:39.575 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-12 23:39:39.576 [info] > git fetch [14ms]
+2025-04-12 23:39:39.578 [info] > git config --get commit.template [7ms]
+2025-04-12 23:39:39.584 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-04-12 23:39:39.584 [warning] [Git][getBranch] No such branch: master
+2025-04-12 23:39:39.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-04-12 23:39:39.600 [warning] [Git][getBranch] No such branch: master
+2025-04-12 23:39:39.601 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-04-12 23:39:39.602 [info] > git config --get commit.template [19ms]
+2025-04-12 23:39:39.603 [info] > git config --get commit.template [4ms]
+2025-04-12 23:39:39.607 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-12 23:39:39.611 [info] [Git][getRemotes] No remotes found in the git config file
+2025-04-12 23:39:39.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-04-12 23:39:39.612 [warning] [Git][getBranch] No such branch: master
+2025-04-12 23:39:39.614 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-04-12 23:39:39.614 [warning] [Git][getBranch] No such branch: master
+2025-04-12 23:39:39.624 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-04-12 23:39:41.800 [info] > git status -z -uall [2182ms] (cancelled)
+2025-04-12 23:39:42.324 [info] > git check-ignore -v -z --stdin [2ms]
+2025-04-12 23:39:43.390 [info] > git ls-files --stage -- analysis/__init__.py [2ms]
+2025-04-12 23:39:43.397 [info] > git cat-file -s cf23fc4b58709c0702c04d2daf4d78b1a6104991 [2ms]
+2025-04-12 23:39:43.740 [info] > git show --textconv :analysis/__init__.py [2ms]
+2025-04-12 23:40:01.737 [info] > git fetch [140ms]
+2025-04-12 23:40:01.749 [info] > git config --get commit.template [5ms]
+2025-04-12 23:40:01.750 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-04-12 23:40:01.760 [info] > git status -z -uall [5ms]
+2025-04-12 23:40:01.760 [info] > git fetch [118ms]
+2025-04-12 23:40:01.766 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-04-12 23:40:01.772 [info] > git config --get commit.template [6ms]
+2025-04-12 23:40:01.780 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [3ms]
+2025-04-12 23:40:01.792 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 23:40:01.809 [info] > git status -z -uall [25ms]
+2025-04-12 23:40:02.319 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:40:03.209 [info] > git config --get commit.template [5ms]
+2025-04-12 23:40:03.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-04-12 23:40:03.219 [info] > git config --get commit.template [11ms]
+2025-04-12 23:40:03.219 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [2ms]
+2025-04-12 23:40:03.237 [info] > git status -z -uall [6ms]
+2025-04-12 23:40:03.237 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2025-04-12 23:40:03.239 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 23:40:03.249 [info] > git status -z -uall [26ms]
+2025-04-12 23:40:03.678 [info] > git ls-files --stage -- analysis/__init__.py [2ms]
+2025-04-12 23:40:03.685 [info] > git cat-file -s cf23fc4b58709c0702c04d2daf4d78b1a6104991 [3ms]
+2025-04-12 23:40:03.759 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 23:40:04.027 [info] > git show --textconv :analysis/__init__.py [3ms]

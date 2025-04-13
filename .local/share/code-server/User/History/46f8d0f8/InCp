@@ -1,0 +1,19 @@
+commit
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   README.md
+#	new file:   analysis/__init__.py
+#	modified:   analysis/analyze_text.py
+#	new file:   analysis/utils/__init__.py
+#	new file:   analysis/utils/env_config.py
+#	new file:   analysis/utils/formatting.py
+#	new file:   analyze_screenshot.py
+#	new file:   ocr/__init__.py
+#	modified:   ocr/extract_text.py
+#	new file:   ocr/utils/__init__.py
+#

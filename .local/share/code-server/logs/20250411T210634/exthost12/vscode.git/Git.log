@@ -1,0 +1,65 @@
+2025-04-12 23:25:31.143 [info] [main] Log level: Info
+2025-04-12 23:25:31.143 [info] [main] Validating found git in: "git"
+2025-04-12 23:25:31.143 [info] [main] Using git "2.34.1" from "git"
+2025-04-12 23:25:31.143 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 23:25:31.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [1ms]
+2025-04-12 23:25:31.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:25:31.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:25:31.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:25:31.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:25:31.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:25:31.143 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-12 23:25:31.143 [info] [Model][openRepository] Opened repository: /home/ubuntu/.nvm
+2025-04-12 23:25:31.143 [info] > git config --get commit.template [4ms]
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [5ms]
+2025-04-12 23:25:31.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:25:31.143 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [4ms]
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [8ms]
+2025-04-12 23:25:31.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:25:31.143 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:25:31.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-12 23:25:31.143 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-12 23:25:31.143 [info] [Model][openRepository] Opened repository: /home/ubuntu/screenshot-analysis
+2025-04-12 23:25:31.143 [info] > git status -z -uall [30ms]
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [25ms]
+2025-04-12 23:25:31.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:25:31.143 [info] > git config --get commit.template [28ms]
+2025-04-12 23:25:31.143 [info] > git config --get commit.template [8ms]
+2025-04-12 23:25:31.143 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-12 23:25:31.143 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:25:31.143 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-12 23:25:31.143 [info] > git for-each-ref --format %(refname)%00%(objectname)%00%(*objectname) refs/tags [6ms]
+2025-04-12 23:25:31.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-04-12 23:25:31.143 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/screenshot-analysis/.git/refs/remotes/origin/main'
+2025-04-12 23:25:31.143 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-12 23:25:31.143 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-04-12 23:25:31.143 [info] > git status -z -uall [4ms]
+2025-04-12 23:25:31.143 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-04-12 23:25:31.143 [info] > git status -z -uall [31ms]
+2025-04-12 23:25:31.143 [info] > git config --get commit.template [8ms]
+2025-04-12 23:25:31.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-04-12 23:25:31.143 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2025-04-12 23:25:31.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [18ms]
+2025-04-12 23:25:31.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-04-12 23:25:31.143 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/screenshot-analysis/.git/refs/remotes/origin/main'
+2025-04-12 23:25:31.143 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-04-12 23:25:31.143 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-04-12 23:25:31.143 [info] > git status -z -uall [3ms]
+2025-04-12 23:25:31.143 [info] > git diff --name-status -z --diff-filter=ADMR 57ce3d84bebbacafd65e264f0828bcca7051bee3...refs/remotes/origin/main [7ms]
+2025-04-12 23:25:31.143 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-04-12 23:25:31.465 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:25:31.725 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 23:25:31.727 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-12 23:26:42.363 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:26:42.363 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-12 23:28:13.341 [info] > git rev-parse --show-toplevel [2ms]
+2025-04-12 23:28:13.341 [info] fatal: not a git repository (or any of the parent directories): .git
